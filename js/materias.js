@@ -1,4 +1,4 @@
-class Materia {
+/* class Materia {
     constructor(cveMat,nombreMat,credMat,semMat){
             this.clave=parseInt(cveMat);
             this.nombre=nombreMat;
@@ -23,3 +23,15 @@ for (let j = 0; j <= materias.length; j++){
     console.log(materias[j].clave,materias[j].nombre,materias[j].creditos,materias[j].semestre);
     
 }
+ */
+let boton = document.getElementById("boton1")
+
+// boton.addEventListener("click", clickHandler);
+
+// function clickHandler(){
+//     alert('Dio click al boton');
+// }
+// boton.addEventListener('click', () => console.log('Dio un click'));
+
+boton.onclick = () => console.log('Dio un click');
+
